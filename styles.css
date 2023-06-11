@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+}
+
+header{
+    display: flex;
+}
+
+header .container{
+    display: flex;
+    margin: 20px auto;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container img{
+    max-width: 300px;
+}
+
+main{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1{
+    padding: 30px;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    list-style: none;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #CC497B;
+    border-radius: 10px;
+    box-shadow: gray 5px 5px 10px;
+}
+
+li:hover{
+    background-color: #864182;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
