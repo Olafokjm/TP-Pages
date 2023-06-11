@@ -47,22 +47,23 @@ ul{
 
 li{
     list-style: none;
-    margin: 10px 0;
-    padding: 20px;
-    background-color: #CC497B;
-    border-radius: 10px;
-    box-shadow: gray 5px 5px 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-li:hover{
+main a:hover{
     background-color: #864182;
 }
 
 main a{
+    background-color: #CC497B;
+    border-radius: 10px;
+    box-shadow: gray 5px 5px 10px;
+    color: white;
     text-decoration: none;
-    color: black;
     padding: 20px;
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    margin-bottom: 20px;
+    width: 100%;
 }
