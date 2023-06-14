@@ -42,13 +42,14 @@ p{
 
 ul{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 li{
     list-style: none;
     display: flex;
-    flex-direction: column;
+    width: 350px;
 }
 
 main a:hover{
